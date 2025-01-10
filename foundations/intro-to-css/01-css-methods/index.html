@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The line down here is to use an external css and link it to this present html file -->
+    <link rel="stylesheet" href="styles.css"> 
     <title>Methods for Adding CSS</title>
+    <!-- now it starts the internal style (it has priority over an external CSS)-->
+     <style>
+      p {
+        color: white;
+        background-color: green;
+        font-size: 18px;
+      }
+           </style>
   </head>
   <body>
-    <div>Style me via the external method!</div>
+    <!-- The div style is done trough external, on styles.css -->
+    <div>Style me via the external method!</div> 
+    <!-- the p style is done internal method, up on the head -->
     <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <!-- The button style is done inline, in the same line where I write the button -->
+    <button style="color: black; background-color: orange; font-size: 18px;">Inline Method</button>
   </body>
 </html>
