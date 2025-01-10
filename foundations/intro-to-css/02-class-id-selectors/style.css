@@ -1,0 +1,23 @@
+/* las clases van con un . */
+.class1 {
+    color: black;
+    background-color: #f3b7e4;
+    font-family: Verdana, "DejaVu Sans", "sans-serif";
+}
+
+/* los id van con  un # */
+#num2 {
+    color: blue;
+    font-size: 36px;
+}
+
+.class-cool {
+
+    font-size: 24px;
+}
+
+#num4 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
