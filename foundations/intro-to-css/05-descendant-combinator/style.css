@@ -1,0 +1,9 @@
+/* if we put a style onto . ancestor .child on the same line, only the
+child classes that are INSIDE an ancestor will be styled
+This DOES NOT mean that each class will have both ancestor and child classes */
+.container .text {
+    text-align: center;
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+}
