@@ -2,7 +2,7 @@
 .class1 {
     color: black;
     background-color: #f3b7e4;
-    font-family: Verdana, "DejaVu Sans", "sans-serif";
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 /* los id van con  un # */

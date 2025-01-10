@@ -1,0 +1,20 @@
+/* This is for everything that both classes share */
+.first,
+.second {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+/* This is for the specifics of first */
+.first {
+    color: white;
+    background-color: black;
+
+}
+
+
+
+/* This is for the specifics of second */
+.second {
+    background-color: yellow;
+}
