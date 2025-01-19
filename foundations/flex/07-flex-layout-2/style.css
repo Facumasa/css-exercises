@@ -13,6 +13,23 @@ body > * {
   border: solid black 8px; 
 }
 
+.center {
+  display: flex;
+  flex: 1;
+}
+
+.allcards{
+  display: flex;
+  flex-wrap: wrap;
+  border: solid red 4px;
+  gap: 16px;
+  padding: 30px;
+}
+
+.card {
+  flex-basis: 200px;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
