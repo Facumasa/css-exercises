@@ -28,17 +28,19 @@ input {
 ul {
   list-style-type: none;
   margin: 0px;
-  padding: 0px;
+  padding: 10px;
 }
 
-.header {
+.header, .footer {
   display: flex;
-  border: solid black 4px;
   justify-content: space-between;
 }
 
-.header > .left-links, .header > .right-links {
-  border: solid blue 1px;
+.footer {
+  background-color: lightgray;
+}
+
+.left-links, .right-links {
   display: flex;
   gap: 8px;
 }
