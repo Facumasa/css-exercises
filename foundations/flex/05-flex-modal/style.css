@@ -26,15 +26,10 @@ body {
   padding: 16px;
 }
 
-.left, .right {
-  /* gap: 16px; */
-}
-
 .right {
-  border: solid black 4px;
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 10px;
 }
 .header {
   font-size: larger;
