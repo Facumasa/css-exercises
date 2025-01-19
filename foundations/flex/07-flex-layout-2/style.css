@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 body > * {
@@ -23,7 +22,7 @@ body > * {
   flex-wrap: wrap;
   border: solid red 4px;
   gap: 16px;
-  padding: 30px;
+  padding: 48px;
 }
 
 .card {
@@ -34,22 +33,40 @@ body > * {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 16px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  text-align: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
