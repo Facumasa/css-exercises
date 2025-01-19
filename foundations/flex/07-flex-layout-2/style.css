@@ -2,6 +2,15 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body > * {
+  /* all children of body (in this case all the flex items inside the body flex) */
+  /* line below just to see the boxes of each children of body */
+  border: solid black 8px; 
 }
 
 .header {
