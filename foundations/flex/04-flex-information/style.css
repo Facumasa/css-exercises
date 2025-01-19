@@ -10,6 +10,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 /* do not edit this footer */
@@ -28,4 +30,8 @@ img {
 .plants {
   display: flex;
   border: solid black 2px;
+}
+
+.pl1{ 
+  border: bolid blue 2px;
 }
