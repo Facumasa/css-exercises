@@ -23,6 +23,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   gap: 16px;
+  padding: 16px;
 }
 
 .left, .right {
@@ -38,6 +39,7 @@ body {
 .header {
   font-size: larger;
   font-weight: bold;
+  margin-right: auto;
 }
 
 .icon {
