@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links{
+  display: flex;
+  justify-content: flex-end;
+}
+
+ 
+.header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center; 
+}
+
+.header {
+    width: 900px;
+    height: 250px;
+    display: flex;
+    /* justifi-content is to move the whole box horizontally */
+    justify-content: space-between;
+    /* align-items is to move the whole box vertically */
+    align-items: center; 
+}
+
+ /* an auto margin in a flex item (signup is inside the flex header)
+  eats up all the extra space inside the container, so instead of
+  distributing date, signup and login equally, pushes signup and
+  whatever is after it all the way to the right*/
+.signup {
+    margin-left: auto;
+  }
+
+.login {
+    margin-left: 20px;
+  }
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* row-reverse reorders the elements on each rows and they appear from left to right (321 instead of 123 images) */
+    flex-direction: row;
+    align-items: center;
+    /* this line below orders one pic after the other vertically instead of horizontally */
+    /* flex-direction: column; */
+    /* if we put the images vertically, we need to allign them with align-items */
+    /* align-items: center; */
+}
+  
+  .photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+  }
+
+  .first-item {
+    /* order in which this item will appear in the flex
+    , takes into account ALL items, not only the ones in this row */
+    /* default order is 0 so 1 would put this item at the end of all */
+    order: 1;
+  }
+  
+  .last-item {
+    /* order in which this item will appear in the flex
+    , takes into account ALL items, not only the ones in this row */
+    /* default order is 0 so -1 would put this item at the start of all*/
+    order: -1;
+  }
+
+.social,
+.subscribe {
+align-self: flex-end;
+margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    /* the number of flex says how much does each item grow,
+    1 is all grow the same, and if one has 2 that one grows twice as fast */
+    flex: 1;
+  }
+
+  /* .footer-three {
+     flex 2 means that the third footer will grow twice as much as the other ones (that have 1) 
+    flex: 2;
+  } */
+
+.footer-one,
+.footer-three {
+    /* this makes the first and third footer have a fixed value,
+     they will not grow but the send will do so */
+     /* for example, if we resize the window only the second footer will change size */
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
+  }
