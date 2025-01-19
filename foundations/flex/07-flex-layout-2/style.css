@@ -4,12 +4,13 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 body > * {
   /* all children of body (in this case all the flex items inside the body flex) */
   /* line below just to see the boxes of each children of body */
-  border: solid black 8px; 
+  /* border: solid black 8px;  */
 }
 
 .center {
@@ -20,7 +21,6 @@ body > * {
 .allcards{
   display: flex;
   flex-wrap: wrap;
-  border: solid red 4px;
   gap: 16px;
   padding: 48px;
 }
@@ -35,14 +35,19 @@ body > * {
   color: white;
   font-size: 32px;
   font-weight: 900;
-  padding: 16px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -69,4 +74,8 @@ ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+}
+
+li {
+  margin-bottom: 16px;
 }
