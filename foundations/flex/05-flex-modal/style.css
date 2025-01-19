@@ -23,6 +23,12 @@ body {
   display: flex;
 }
 
+.right {
+  border: solid black 4px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
