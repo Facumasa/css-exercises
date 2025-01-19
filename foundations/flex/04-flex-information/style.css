@@ -24,3 +24,8 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.plants {
+  display: flex;
+  border: solid black 2px;
+}
