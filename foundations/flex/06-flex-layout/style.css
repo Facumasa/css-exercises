@@ -5,6 +5,14 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body > * {
+  /* all children of body (in this case all the flex items inside the body flex) */
+  border: solid black 2px;
 }
 
 img {
@@ -50,4 +58,8 @@ a {
 .left-links, .right-links {
   display: flex;
   gap: 8px;
+}
+
+.content {
+  align-self: center;
 }
