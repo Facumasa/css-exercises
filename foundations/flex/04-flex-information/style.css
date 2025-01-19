@@ -34,4 +34,6 @@ img {
 
 .pl1{ 
   border: bolid blue 2px;
+  display: flex;
+  flex-direction: column;
 }
