@@ -26,9 +26,16 @@ input {
 }
 
 ul {
+  /* List style none is to remove the dots from lists */
   list-style-type: none;
   margin: 0px;
   padding: 10px;
+}
+
+a {
+  /* text decoration is to remove the underline on links */
+  text-decoration: none;
+  color: gray;
 }
 
 .header, .footer {
@@ -37,7 +44,7 @@ ul {
 }
 
 .footer {
-  background-color: lightgray;
+  background-color: rgb(243, 243, 243);
 }
 
 .left-links, .right-links {
